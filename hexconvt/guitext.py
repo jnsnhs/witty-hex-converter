@@ -49,7 +49,7 @@ class GuiText:
     LABEL_EMPTY_INPUT = "Leere\nEingabe"
     LABEL_TRANSPARENT_COLOR = "Anzeige\nnicht\nmöglich"
 
-    DEFAULT_COMMENT = "Bitte geben Sie einen gültigen\nHex-Wert ein oder "
+    DEFAULT_COMMENT = "Bitte geben Sie einen gültigen\nHex-Wert ein oder " \
     "wählen Sie eine\nder vordefinierten Webfarben aus."
     NAMED_CODES = import_json_file(
         os.path.join(COMMENTS_DIR, "named_codes.json"))
